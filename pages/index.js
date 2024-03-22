@@ -28,6 +28,7 @@ const Home = (props) => {
           />
         </Head>
         <section className="home-hero">
+          <Navbar rootClassName="navbar-root-class-name1"></Navbar>
           <div className="home-heading">
             <h1 className="home-header">
               <span className="home-text">Providing essential legal</span>
@@ -49,7 +50,6 @@ const Home = (props) => {
             </span>
             <span className="home-text07">AT LAW</span>
           </p>
-          <Navbar rootClassName="navbar-root-class-name1"></Navbar>
           <div className="home-buttons">
             <a href="#services" className="home-services button">
               Our Services
